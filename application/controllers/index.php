@@ -8,6 +8,9 @@ class index extends CI_Controller {
 	{
 		$this->load->view('index');
 	}
+	public function notYet() {
+		$this->load->view('websiteUnderConstruction');
+	}
 }
 
 /* End of file welcome.php */
